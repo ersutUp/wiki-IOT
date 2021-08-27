@@ -15,7 +15,7 @@
 - 熟悉基础元器件
 - 熟悉电路原理、数字电路，模拟电路
 
-那么接下来先找上边三个的学习资料，根据资料**做计划**
+那么接下来先找上边三个的学习资料，根据资料**做计划，做笔记**
 - [电路原理](https://www.bilibili.com/video/BV1R7411q759)
 - [数字电路](https://www.bilibili.com/video/av85809819)
 - [模拟电路](https://www.bilibili.com/video/av85834099)
