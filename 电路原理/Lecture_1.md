@@ -36,7 +36,7 @@
 ## 电势能
 
 - 含义：电势能（Electric potential energy）是处于电场的电荷分布所具有的势能，与电荷分布在系统内部的组态有关。
-- 单位：J（焦耳）
+- 单位：J（焦耳） 
 - 符号：E<sub>p</sub>
 - 电场力做功与电势能变化量的关系：W<sub>AB</sub>=E<sub>pA</sub>-E<sub>pB</sub>
 
@@ -103,6 +103,46 @@
 	- U,I
 - 可能变化的量小写
 	- u,i
+
+## 欧姆定律
+
+- 公式：I=U/R
+
+### 在串联电路中电压和电阻的关系
+
+<b id='resistance-circuit'></b>串联电阻电路图：![](./images/resistance-circuit.png)
+
+说明：
+
+1. i<sub>ab</sub> 为 R<sub>1</sub> 的电流，这里称为 i<sub>1</sub>；i<sub>bc</sub> 为 R<sub>2</sub> 的电流，这里称为 i<sub>2</sub>；i<sub>ac</sub> 为整个电路的总电流，这里称为 i<sub>总</sub>；
+2. u<sub>ab</sub> 为 R<sub>1</sub> 的电压，这里称为 u<sub>1</sub>；u<sub>bc</sub> 为 R<sub>2</sub> 的电压，这里称为 u<sub>2</sub>；u<sub>ac</sub> 为整个电路的总电压，这里称为 u<sub>总</sub>；
+3. R<sub>ac</sub> 为整个电路的总电阻，这里称为 R<sub>总</sub>；（导线和开关的电阻忽略不计）
+
+特征：
+
+- 电流特征： i<sub>总</sub> = i<sub>1</sub> = i<sub>2</sub>
+- 电阻特征： R<sub>总</sub> = R<sub>1</sub> + R<sub>2</sub>
+- 电压特征：u<sub>总</sub> = u<sub>1</sub> + u<sub>2</sub>
+
+那么电压和电阻有什么关系？
+
+∵  i<sub>总</sub> = i<sub>1</sub> = i<sub>2</sub> ，I=U/R
+
+∴  I = U<sub>1</sub>/R<sub>1</sub> = U<sub>2</sub>/R<sub>2</sub> 
+
+可以看出**电压和电阻是正比关系**
+
+
+
+变形式： 
+
+U<sub>1</sub>/R<sub>1</sub> = U<sub>2</sub>/R<sub>2</sub> 
+
+=> (U<sub>1</sub>/R<sub>1</sub>)(R<sub>1</sub>/U<sub>2</sub>) = (U<sub>2</sub>/R<sub>2</sub> )(R<sub>1</sub>/U<sub>2</sub>)
+
+=> U<sub>1</sub> / U<sub>2</sub> =  R<sub>1</sub> / R<sub>2</sub>
+
+也可以看出**电压和电阻是正比关系**
 
 ## 思考1
 
@@ -263,6 +303,44 @@ U<sub>ad</sub> = U<sub>ac</sub> - U<sub>dc</sub> = φa - φd
 - 公式：P=dw/dt=(dw/dq)*(dq/dt) =ui
 - 符号：P
 - 单位：W（瓦特，简称瓦）
+
+### 在<a href="#resistance-circuit">串联电路</a>中功率与电阻的关系
+
+功率特征：
+
+P<sub>总</sub>=U<sub>总</sub>I<sub>总</sub>
+
+​	=(U<sub>1</sub>+U<sub>2</sub>)I<sub>总</sub>
+
+​	=(U<sub>1</sub>I<sub>1</sub>)+(U<sub>2</sub>I<sub>2</sub>)
+
+​	=P<sub>1</sub>+P<sub>2</sub>
+
+功率与电阻的关系
+
+∵ P=UI，U=RI
+
+∴ P=(RI)I=RI<sup>2</sup>
+
+​	=> I<sup>2</sup>=P/R
+
+又 ∵  i<sub>总</sub> = i<sub>1</sub> = i<sub>2</sub>
+
+∴ I<sup>2</sup>=P<sub>1</sub>/R<sub>1</sub>=P<sub>2</sub>/R<sub>2</sub>
+
+可以看出**功率和电阻是正比关系**
+
+
+
+∵ I=P/U， i<sub>总</sub> = i<sub>1</sub> = i<sub>2</sub>
+
+∴ I=P<sub>1</sub>/U<sub>1</sub>=P<sub>2</sub>/U<sub>2</sub>
+
+又 ∵  U<sub>1</sub> / U<sub>2</sub> =  R<sub>1</sub> / R<sub>2</sub>
+
+∴  P<sub>1</sub>/P<sub>2</sub> = U<sub>1</sub> / U<sub>2</sub> =  R<sub>1</sub> / R<sub>2</sub>
+
+也可以看出**功率和电阻是正比关系**
 
 ### 功率的计算
 
