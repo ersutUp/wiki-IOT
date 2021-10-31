@@ -108,9 +108,9 @@
 
 - 公式：I=U/R
 
-### 在串联电路中电压和电阻的关系
+### <b id='resistance-circuit'></b>在串联电路中电压和电阻的关系
 
-<b id='resistance-circuit'></b>串联电阻电路图：![](./images/resistance-circuit.png)
+串联电阻电路图：![](./images/resistance-circuit.png)
 
 说明：
 
