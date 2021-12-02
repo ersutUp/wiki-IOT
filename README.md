@@ -20,5 +20,5 @@
 - [数字电路](https://www.bilibili.com/video/av85809819)
 - [模拟电路](https://www.bilibili.com/video/av85834099)
 - [基础元器件](https://www.bilibili.com/video/BV1st411a74o)
-- C语言
+- [C语言](./C)
 
