@@ -19,6 +19,5 @@ void main(){
 	printf("//单行注释 /*多行注释*/");
 	
 	int age = 10;
-	
 	//printf("\n%d",ag/*error*/e);//这行会报错因为注解会编译为空格
 }
