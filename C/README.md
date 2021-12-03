@@ -8,4 +8,5 @@
 
 1. [安装gcc](./000-install)
 2. [helloworld](./001-helloworld)
+3. [基本语法](./002-基本语法)
 
