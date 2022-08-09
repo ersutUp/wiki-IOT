@@ -1,1 +1,4 @@
 C/*/*.exe
+**/.vs/**
+C/001-helloworld/helloworld/helloworld/x64/**
+C/001-helloworld/helloworld/x64/**
